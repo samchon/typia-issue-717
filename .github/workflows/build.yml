@@ -10,4 +10,5 @@ jobs:
         with:
           node-version: 16.x
       - run: yarn
-      - run: yarn tspc index.ts
+      - run: yarn tsc -p tsconfig.json index.ts
+      - run: yarn tspc -p tsconfig.json index.ts
