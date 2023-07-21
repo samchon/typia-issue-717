@@ -1,0 +1,19 @@
+{
+  "name": "typia-issue-717",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/samchon/typia-issue-717",
+  "author": "Jeongho Nam <samchon.github@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typia": "^4.1.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-patch": "^3.0.2",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "prepare": "ts-patch install"
+  }
+}
